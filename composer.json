@@ -1,0 +1,20 @@
+{
+    "name": "havenshen/yunpian-sms",
+    "description": "云片网络 短信发送,基于Laravel5.1插件。",
+    "type": "package",
+    "keywords": ["laravel", "yunpian", "sms"],
+    "homepage": "https://github.com/HavenShen/yunpian-sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HavenShen",
+            "email": "havenshen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HavenShen\\YunpianSMS\\": "src/"
+        }
+    },
+    "require": {}
+}
