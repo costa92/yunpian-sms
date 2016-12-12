@@ -1,6 +1,6 @@
 <?php
 
-namespace HavenShen\YunpianSMS;
+namespace Costa92\YunpianSMS;
 
 /**
  * Http请求类.

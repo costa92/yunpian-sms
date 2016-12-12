@@ -1,8 +1,8 @@
 <?php
 
-namespace HavenShen\YunpianSMS;
+namespace Costa92\YunpianSMS;
 
-use HavenShen\YunpianSMS\Services\YunpianSMSService;
+use Costa92\YunpianSMS\Services\YunpianSMSService;
 use Illuminate\Support\ServiceProvider;
 
 class YunpianSMSServiceProvider extends ServiceProvider
