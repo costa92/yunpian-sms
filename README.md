@@ -6,7 +6,7 @@
 1. 安装包文件
 
   ```shell
-  composer require havenshen/yunpian-sms
+  composer require costa92/yunpian-sms
   ```
 
 ## 配置
@@ -53,3 +53,4 @@
 ## License
 
 MIT
+
