@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "costa92\\YunpianSMS\\": "src/"
+            "Costa92\\YunpianSMS\\": "src/"
         }
     },
     "require": {}
