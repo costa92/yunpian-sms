@@ -16,7 +16,7 @@
 1. 注册 `ServiceProvider`:
 
   ```php
-  costa92\YunpianSMS\YunpianSMSServiceProvider::class,
+  Costa92\YunpianSMS\YunpianSMSServiceProvider::class,
   ```
 
 2. 创建配置文件：
@@ -30,7 +30,7 @@
 4. （可选）添加外观到 `config/app.php` 中的 `aliases` 部分:
 
   ```php
-  'YunpianSMS' => costa92\YunpianSMS\Facades\YunpianSMS::class,
+  'YunpianSMS' => Costa92\YunpianSMS\Facades\YunpianSMS::class,
   ```
   
 5. 在 ENV 中配置以下选项：
