@@ -1,6 +1,6 @@
 {
     "name": "costa92/yunpian-sms",
-    "description": "云片网络 短信发送,基于Laravel5.1插件。",
+    "description": "云片网络 短信发送,基于Laravel5.1版本以上的插件。",
     "type": "package",
     "keywords": ["laravel", "yunpian", "sms"],
     "homepage": "https://github.com/costa92/yunpian-sms",

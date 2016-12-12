@@ -36,18 +36,21 @@
 5. 在 ENV 中配置以下选项：
 
   ```php
-  SMS_API_KEY=xxx
-  SMS_SEND_URL=xxx
-  SMS_SEND_TEXT=xxx
+  SMS_API_KEY=xxx      // 云片的秘钥
+  SMS_SEND_URL=xxx    //发短信的api
+  SMS_SEND_TEXT=xxx  //发送的内容，验证码用@代替  ge：【xxx】您的验证码是@。如非本人操作，请忽略本短信
   ```
   
 6.使用
 
   ```php
   /*
-  *可以是个string字符串或array字符串群发
+  * 参数 phone  可以是个string字符串或array字符串群发
+  * 参数 code 可用为空，也可用不为空，
+  * 
   */
-  \YunpianSMS::sendSMS('139xxxx5926',$code="12323");
+  
+  \YunpianSMS::sendSMS($phone,$code);
   ```
   
 ## License
